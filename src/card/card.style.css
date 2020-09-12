@@ -1,0 +1,19 @@
+.card
+{
+    background: blueviolet;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: aliceblue;
+    transition: all 1s;
+    box-shadow: 0 0 1rem #fff;
+}
+.card:hover
+{
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 1rem red;
+    transform: scale(1.2);
+}

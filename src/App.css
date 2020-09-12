@@ -6,7 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.headerMain
+{
+  font-family: "Ranchers";
+  color: blueviolet;
+  padding: 1rem;
+}
+body
+{
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 50%, rgba(0,212,255,1) 100%);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
